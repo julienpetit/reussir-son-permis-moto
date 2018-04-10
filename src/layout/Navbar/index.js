@@ -1,11 +1,15 @@
 import React from 'react';
-import MobileStoreButton from 'react-mobile-store-button';
-import './landing.css';
+
+import './navbar.css';
 
 export default () => (
-    <div>
-
-
-
+  <nav className="navbar">
+    <div className="container">
+      <img
+        src="/img/logo-90.png"
+        alt="Logo Réussir son permis moto"
+        className="navbar-logo"
+      />
     </div>
-)
+  </nav>
+);
