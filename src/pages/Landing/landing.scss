@@ -1,16 +1,37 @@
-.landing {
+@import "../../../src/assets/_init";
 
-}
+.footer {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  color: #555;
 
-.landing .cover-heading {
-    font-size: 3em;
-}
+  p {
+    color: #AAA;
+    font-size: 0.8rem;
+    margin: 0;
+  }
 
-.landing .lead {
-    color: white;
-    font-size: 1.3em;
-}
+  a {
+    color: #FFF;
+  }
 
-.landing .footer {
-    color: white;
+  .u-highlight-yellow::selection {
+    background: #FFD600;
+    color: #1B8F3A;
+  }
+
+  .u-highlight-yellow::-moz-selection {
+    background: #FFD600;
+    color: #1B8F3A;
+  }
+
+  .u-highlight-green::selection {
+    background: #1B8F3A;
+    color: #FFD600;
+  }
+
+  .u-highlight-green::-moz-selection {
+    background: #1B8F3A;
+    color: #FFD600;
+  }
 }

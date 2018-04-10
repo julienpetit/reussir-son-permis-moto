@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import Landing from './pages/Landing/index';
-import Navbar from './layout/Navbar/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
