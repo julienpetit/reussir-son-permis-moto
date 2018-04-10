@@ -10,20 +10,24 @@ export default () => (
 
     <main role="main" className="inner cover container">
       <div className="row">
-        <div className="col-6 col-6 d-flex flex-column justify-content-center">
+        <div className="col-md-8 d-flex flex-column justify-content-center">
           <Leading />
-          <p className="lead">
+          <div className="store-buttons">
             <MobileStoreButton
               store="ios"
+              height={60}
+              width={200}
               url="https://itunes.apple.com/fr/app/r%C3%A9ussir-son-permis-moto/id820931415?mt=8"
             />
             <MobileStoreButton
               store="android"
+              height={60}
+              width={200}
               url="https://play.google.com/store/apps/details?id=fr.julienpetit.reussirSonPermisMoto&hl=fr"
             />
-          </p>
+          </div>
         </div>
-        <div className="col-6 d-flex justify-content-center">
+        <div className="col-md-4 d-xs-none d-flex justify-content-center">
           <Device />
         </div>
       </div>

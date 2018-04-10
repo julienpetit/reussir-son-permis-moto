@@ -4,11 +4,10 @@ import './leading.css';
 
 const Leading = () => (
   <div className="leading">
-    <div>
+    <div className="leading-inner">
       <Logo />
       <span>Réussir son permis moto</span>
     </div>
-    <p className="lead">La meilleure façon d'obtenir son permis moto</p>
   </div>
 );
 

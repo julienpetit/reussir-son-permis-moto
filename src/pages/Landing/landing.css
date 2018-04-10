@@ -8443,6 +8443,19 @@ a.text-dark:focus {
   }
 }
 
+.landing .cover {
+  padding-top: 15px;
+}
+
+.landing .store-buttons {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .landing .store-buttons {
+    text-align: left;
+  }
+}
+
 .footer {
   background: rgba(0, 0, 0, 0.4);
   padding: 5px;

@@ -1,5 +1,21 @@
 @import "../../../src/assets/_init";
 
+
+.landing {
+  .cover {
+    padding-top: 15px;
+  }
+
+  .store-buttons {
+    text-align: center;
+
+    @include media-breakpoint-up(sm) {
+      text-align: left;
+    }
+  }
+}
+
+
 .footer {
   background: rgba(0, 0, 0, 0.4);
   padding: 5px;

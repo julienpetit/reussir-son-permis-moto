@@ -1,6 +1,9 @@
 @import '../../assets/_init';
 
 .leading {
+  margin-bottom: 30px;
+  position: relative;
+
   .logo {
     float: left;
     margin-right: 10px;
@@ -13,8 +16,4 @@
     display: block;
   }
 
-  .lead {
-    color: $light;
-    font-size: 0.9rem;
-  }
 }
