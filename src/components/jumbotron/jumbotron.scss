@@ -1,0 +1,19 @@
+@import '../../assets/_init';
+
+.jumbotron {
+
+  background-color: $light;
+  height: 350px;
+
+  background-image: url('/img/landing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+
+  .device {
+    top: -3rem;
+    position: absolute;
+  }
+}

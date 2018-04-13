@@ -1,0 +1,19 @@
+@import '../../assets/_init';
+
+.leading {
+  margin-bottom: 30px;
+  position: relative;
+
+  .logo {
+    float: left;
+    margin-right: 10px;
+  }
+
+  span {
+    color: $light;
+    font-size: 3em;
+    line-height: 2.8rem;
+    display: block;
+  }
+
+}
