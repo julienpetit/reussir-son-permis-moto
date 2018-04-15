@@ -3,7 +3,7 @@
 .jumbotron {
 
   background-color: $light;
-  height: 350px;
+  height: 400px;
 
   background-image: url('/img/landing.jpg');
   background-position: center;
@@ -12,8 +12,28 @@
 
   overflow: hidden;
 
+  @include media-breakpoint-down(sm) {
+    height: 800px;
+  }
+
+  .col-left {
+    @include media-breakpoint-up(md) {
+      height: 100%;
+    }
+  }
+
   .device {
     top: -3rem;
     position: absolute;
+
+
+    @include media-breakpoint-down(md) {
+      position: relative;
+      top: 0;
+    }
+  }
+
+  .title, .lead {
+    color: $light;
   }
 }

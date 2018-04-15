@@ -4,11 +4,14 @@ import Device from 'src/components/device';
 import './jumbotron.css';
 
 const Jumbotron = () => (
-  <div className="jumbotron">
+  <div className="jumbotron jumbotron-fluid">
     <div className="container h-100">
       <div className="row h-100">
-        <div className="col-6 h-100 d-flex align-items-end justify-content-center">
+        <div className="col-md-7 col-left d-flex align-items-end justify-content-center">
           <div className="store-buttons">
+            <h1 className="display-4 title">Réussir son permis moto</h1>
+            <p className="lead">Disponible sur iOS et Android</p>
+
             <MobileStoreButton
               store="ios"
               height={60}
@@ -23,7 +26,7 @@ const Jumbotron = () => (
             />
           </div>
         </div>
-        <div className="col-6 d-flex justify-content-center">
+        <div className="col-md-5 col-right d-flex justify-content-center">
           <Device />
         </div>
       </div>

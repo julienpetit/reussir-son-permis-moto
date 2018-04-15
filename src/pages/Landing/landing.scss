@@ -7,10 +7,10 @@
   }
 
   .store-buttons {
-    text-align: center;
+    text-align: left;
 
-    @include media-breakpoint-up(sm) {
-      text-align: left;
+    @include media-breakpoint-down(sm) {
+      text-align: center;
     }
   }
 }
