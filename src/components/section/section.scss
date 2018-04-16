@@ -1,0 +1,9 @@
+@import '../../assets/_init';
+
+.section {
+  padding: 70px 0;
+
+  &.section-light {
+    background-color: $light;
+  }
+}
