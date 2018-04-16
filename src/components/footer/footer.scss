@@ -1,19 +1,37 @@
 @import '../../assets/_init';
 
-.leading {
-  margin-bottom: 30px;
-  position: relative;
+.footer {
+  background: $dark;
+  padding: 5px;
+  color: #555;
 
-  .logo {
-    float: left;
-    margin-right: 10px;
+  p {
+    color: #AAA;
+    font-size: 0.8rem;
+    margin: 0;
   }
 
-  span {
-    color: $light;
-    font-size: 3em;
-    line-height: 2.8rem;
-    display: block;
+  a {
+    color: #FFF;
   }
 
+  .u-highlight-yellow::selection {
+    background: #FFD600;
+    color: #1B8F3A;
+  }
+
+  .u-highlight-yellow::-moz-selection {
+    background: #FFD600;
+    color: #1B8F3A;
+  }
+
+  .u-highlight-green::selection {
+    background: #1B8F3A;
+    color: #FFD600;
+  }
+
+  .u-highlight-green::-moz-selection {
+    background: #1B8F3A;
+    color: #FFD600;
+  }
 }
