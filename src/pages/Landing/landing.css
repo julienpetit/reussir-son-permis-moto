@@ -8448,11 +8448,11 @@ a.text-dark:focus {
 }
 
 .landing .store-buttons {
-  text-align: center;
+  text-align: left;
 }
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
   .landing .store-buttons {
-    text-align: left;
+    text-align: center;
   }
 }
 

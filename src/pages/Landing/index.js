@@ -1,53 +1,35 @@
 import React from 'react';
-import MobileStoreButton from 'react-mobile-store-button';
-import Device from 'src/components/device';
-import Leading from 'src/components/leading';
+import Navbar from 'src/components/navbar';
+import Section from 'src/components/section';
+import Card from 'src/components/card';
+import Footer from 'src/components/footer';
+import Jumbotron from 'src/components/jumbotron';
 import './landing.css';
+import icon from './home-icon.png';
 
 export default () => (
   <div className="cover-container d-flex h-100 mx-auto flex-column landing">
-    <header className="mb-auto" />
+    <Navbar />
+    <Jumbotron />
 
-    <main role="main" className="inner cover container">
-      <div className="row">
-        <div className="col-md-8 d-flex flex-column justify-content-center">
-          <Leading />
-          <div className="store-buttons">
-            <MobileStoreButton
-              store="ios"
-              height={60}
-              width={200}
-              url="https://itunes.apple.com/fr/app/r%C3%A9ussir-son-permis-moto/id820931415?mt=8"
-            />
-            <MobileStoreButton
-              store="android"
-              height={60}
-              width={200}
-              url="https://play.google.com/store/apps/details?id=fr.julienpetit.reussirSonPermisMoto&hl=fr"
-            />
-          </div>
-        </div>
-        <div className="col-md-4 d-xs-none d-flex justify-content-center">
-          <Device />
-        </div>
+    <Section className="text-center">
+      <h2>Découvrez tous les outils pour réussir votre permis</h2>
+      <p className="lead">A - A1 - A2</p>
+    </Section>
+    <Section type="light">
+      <div className="d-flex justify-content-between">
+        <Card title="Les 12 fiches du permis moto" imageSrc={icon} />
+        <Card title="Les 8 parcours illustrés" imageSrc={icon} />
+        <Card title="Des quiz avec plus de 200 questions" imageSrc={icon} />
+        <Card title="Mise à jour régulières" imageSrc={icon} />
       </div>
-    </main>
+    </Section>
 
-    <footer className="mastfoot mt-auto text-center footer">
-      <div className="inner">
-        <p>
-          Réalisé avec 🧡 à{' '}
-          <span className="footer-nantes">
-            <span className="u-highlight-yellow">Na</span>
-            <span className="u-highlight-green">nt</span>
-            <span className="u-highlight-yellow">es</span>
-          </span>{' '}
-          par{' '}
-          <a href="http://julienpetit.fr" target="_blank">
-            Julien Petit
-          </a>.
-        </p>
-      </div>
-    </footer>
+    {/*<Section className='text-center'>*/}
+    {/*<h2>Ils nous font confiance</h2>*/}
+    {/*<p className="lead">dssdgdfsg fsgs g sdfdf gds</p>*/}
+    {/*</Section>*/}
+
+    <Footer />
   </div>
 );

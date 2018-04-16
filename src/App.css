@@ -8442,19 +8442,3 @@ a.text-dark:focus {
     border: 1px solid #dee2e6 !important;
   }
 }
-
-html {
-  height: 100%;
-}
-
-#root {
-  height: 100%;
-}
-
-body {
-  background-image: url('/img/landing.jpg');
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

@@ -7,47 +7,10 @@
   }
 
   .store-buttons {
-    text-align: center;
+    text-align: left;
 
-    @include media-breakpoint-up(sm) {
-      text-align: left;
+    @include media-breakpoint-down(sm) {
+      text-align: center;
     }
-  }
-}
-
-
-.footer {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 5px;
-  color: #555;
-
-  p {
-    color: #AAA;
-    font-size: 0.8rem;
-    margin: 0;
-  }
-
-  a {
-    color: #FFF;
-  }
-
-  .u-highlight-yellow::selection {
-    background: #FFD600;
-    color: #1B8F3A;
-  }
-
-  .u-highlight-yellow::-moz-selection {
-    background: #FFD600;
-    color: #1B8F3A;
-  }
-
-  .u-highlight-green::selection {
-    background: #1B8F3A;
-    color: #FFD600;
-  }
-
-  .u-highlight-green::-moz-selection {
-    background: #1B8F3A;
-    color: #FFD600;
   }
 }

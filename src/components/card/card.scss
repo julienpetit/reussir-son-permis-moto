@@ -1,0 +1,19 @@
+@import '../../assets/_init';
+
+.card-theme {
+  width: 200px;
+
+  figure {
+    padding: 10px;
+  }
+
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
+}
